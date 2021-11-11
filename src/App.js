@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Game from './Square';
+import Clock from './Clock';
+import Calculator from './Calculator';
+import { OutClickEample } from './OutClickExample';
 function App() {
   return (
     <div className="App">
@@ -18,6 +21,9 @@ function App() {
           Learn React
         </a>
         <Game/>
+        {/* <Clock date = {new Date()}/> */}
+        {/* <Calculator/> */}
+        <OutClickEample/>
       </header>
     </div>
     
